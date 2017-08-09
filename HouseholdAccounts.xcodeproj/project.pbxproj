@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D4D0AD51F3AB5BA0061D03E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0AD31F3AB5BA0061D03E /* CustomTableViewCell.swift */; };
+		9D4D0AD61F3AB5BA0061D03E /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D0AD41F3AB5BA0061D03E /* CustomTableViewCell.xib */; };
 		DF27BCB61F357D8400F035C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF27BCB51F357D8400F035C6 /* AppDelegate.swift */; };
 		DF27BCB81F357D8400F035C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF27BCB71F357D8400F035C6 /* ViewController.swift */; };
 		DF27BCBB1F357D8400F035C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF27BCB91F357D8400F035C6 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D4D0AD31F3AB5BA0061D03E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9D4D0AD41F3AB5BA0061D03E /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		DF27BCB21F357D8400F035C6 /* HouseholdAccounts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseholdAccounts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF27BCB51F357D8400F035C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF27BCB71F357D8400F035C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				DF27BCB51F357D8400F035C6 /* AppDelegate.swift */,
 				DF27BCB71F357D8400F035C6 /* ViewController.swift */,
 				DF27BCB91F357D8400F035C6 /* Main.storyboard */,
+				9D4D0AD31F3AB5BA0061D03E /* CustomTableViewCell.swift */,
+				9D4D0AD41F3AB5BA0061D03E /* CustomTableViewCell.xib */,
 				DF27BCBC1F357D8400F035C6 /* Assets.xcassets */,
 				DF27BCBE1F357D8400F035C6 /* LaunchScreen.storyboard */,
 				DF27BCC11F357D8400F035C6 /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				DF27BCC01F357D8400F035C6 /* LaunchScreen.storyboard in Resources */,
 				DF27BCBD1F357D8400F035C6 /* Assets.xcassets in Resources */,
+				9D4D0AD61F3AB5BA0061D03E /* CustomTableViewCell.xib in Resources */,
 				DF27BCBB1F357D8400F035C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4D0AD51F3AB5BA0061D03E /* CustomTableViewCell.swift in Sources */,
 				DF27BCB81F357D8400F035C6 /* ViewController.swift in Sources */,
 				DF27BCB61F357D8400F035C6 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +515,7 @@
 				DF27BCDC1F357D8400F035C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF27BCDD1F357D8400F035C6 /* Build configuration list for PBXNativeTarget "HouseholdAccountsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				DF27BCDF1F357D8400F035C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF27BCE01F357D8400F035C6 /* Build configuration list for PBXNativeTarget "HouseholdAccountsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				DF27BCE21F357D8400F035C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
